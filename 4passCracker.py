@@ -7,7 +7,7 @@ elements = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 combination_length = 4
 
 # Abrimos el archivo en modo de escritura
-with open('RockLliu.txt', 'w') as file:
+with open('./dictionaries/All/RockLliu.txt', 'w') as file:
 
     # Generamos todas las posibles combinaciones
     combinations = itertools.product(elements, repeat=combination_length)
